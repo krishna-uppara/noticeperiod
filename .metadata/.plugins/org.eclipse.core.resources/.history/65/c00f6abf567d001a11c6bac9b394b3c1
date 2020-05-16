@@ -1,0 +1,38 @@
+package Definition;
+
+import java.util.Map;
+
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.cucumber.testng.TestNGCucumberRunner;
+
+public class Mapdatatable extends TestNGRunCucumberTest{
+	
+	
+	@Given("xyxz")
+	public void xyxz() {
+	System.out.println("verify the super");	
+	}
+
+	@When("abc")
+	public void abc() {
+		System.out.println("verify the abc");
+	}
+	
+
+
+	@Then("def")
+	public void def(DataTable test) {
+
+		
+		for(Map<Object, Object> aaa :test.asMaps(String.class,String.class))
+		{
+			System.out.println(aaa.get("username"));
+			System.out.println(aaa.get("password"));
+		}
+	}	
+
+}
+

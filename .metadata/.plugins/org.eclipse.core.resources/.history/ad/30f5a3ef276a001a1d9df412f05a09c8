@@ -1,0 +1,27 @@
+package RunnerClass;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.SnippetType;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "@target/rerun.txt",
+				 glue = "Definition", 
+				 monochrome = true,
+				 //dryRun=true,
+				 strict=true,
+				 snippets=SnippetType.CAMELCASE,
+				 plugin={ "pretty","html:target/cucumber-html","json:target/cucumber-html.json","pretty:target/cucumber-html.txt","junit:target/cucumber-html.xml","usage:target/cucumber-html1.json","rerun:target/rerun1.txt"}
+				 // OR {"@,@"}
+				 //,tags={"@smoke,@regressions"}
+				 // AND {"@","@"}
+				 //,tags={"@smoke","@regressions"}
+				 //NOT {"~@"}
+                 //,tags={"~@smoke,~@regressions"}
+				 
+					)
+public class Runner2 {
+
+}

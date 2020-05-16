@@ -1,0 +1,23 @@
+package org;
+
+import org.testng.annotations.Test;
+
+public class Priority {
+	
+	
+	@Test()
+	public static void a1()
+	{
+		System.out.println("1");
+	}
+	@Test(priority=1)
+	public static void a2()
+	{
+		System.out.println("2");
+	}
+	@Test(priority=0)
+	public static void a3()
+	{
+		System.out.println("3");
+	}
+}

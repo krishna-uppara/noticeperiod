@@ -1,0 +1,12 @@
+package seleniumLearning;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class page1st {
+	@FindBy(xpath="//form[@id='basicBootstrapForm']")
+	private WebElement form;
+	@FindBy(xpath="//textarea[@ng-model='Adress']")
+	private WebElement address;
+
+}

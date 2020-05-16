@@ -1,0 +1,24 @@
+package javaprograms;
+
+public class alphanumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "abcd1234567890pqr54897";
+		StringBuffer a ;
+		for(int i =0;i<str.length();i++)
+		{
+			char c = str.charAt(i);
+			if(Character.isDigit(c))
+			{
+				StringBuffer s = new StringBuffer()
+						a = s.append(c);
+				
+			}
+		}
+		
+		int d = Integer.parseInt(a);
+
+	}
+
+}

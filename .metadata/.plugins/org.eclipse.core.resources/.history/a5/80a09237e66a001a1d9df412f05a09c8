@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.1292">
+<testcase classname="free Crm Login feature" name="Free Crm Loginn Test Scenario" time="0.127538">
+<system-out><![CDATA[Given user is already in the login page.....................................passed
+When title of the login page is free CRmm...................................passed
+Then user enter username and password.......................................passed
+Then user click on login button.............................................passed
+And User is home page.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="free Crm Login feature" name="Free crm lookup" time="0.000818">
+<system-out><![CDATA[Given user is lookin up.....................................................passed
+When user is taken up.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="free Crm Login feature" name="Free Crm Loginnn Test Scenario" time="0.000844">
+<system-out><![CDATA[Given user is already in the loginnnnnnnnnnnnnnnnnnnnnnn page...............passed
+When title of the loginnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn page is free CRmm.....passed
+Then user enter usernamennnnnnnnnnn and passwordnnnnnnnnnnnnnnnnnnnnnnn.....passed
+Then user click on login buttonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn..........passed
+And User is home pagennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn................passed
+]]></system-out>
+</testcase>
+<testcase classname="free Crm Login feature" name="Free crm face" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is lookin up face................................................undefined
+When user is taken up face..................................................skipped
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,17 @@
+Feature: Verify the datatable
+description ::: 
+
+Scenario: Verify the datatable
+Given  xyxz
+When abc
+Then def
+|username|password|
+|veeresh|radika|
+|krishna|krishnaveni|
+|Shashikanth|upcoming|
+
+Scenario: Free crm lookup
+Given user is lookin up
+When user is taken upScenario: Free crm lookup
+
+

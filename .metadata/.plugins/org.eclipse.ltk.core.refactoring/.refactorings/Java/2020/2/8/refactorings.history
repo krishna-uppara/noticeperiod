@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;javaprograms.Stringreverse&apos; to &apos;UniqueCharacterInString&apos;&#x0D;&#x0A;- Original project: &apos;Java&apos;&#x0D;&#x0A;- Original element: &apos;javaprograms.Stringreverse&apos;&#x0D;&#x0A;- Renamed element: &apos;javaprograms.UniqueCharacterInString&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Stringreverse&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;javaprograms{Stringreverse.java[Stringreverse" matchStrategy="1" name="UniqueCharacterInString" qualified="false" references="true" similarDeclarations="false" stamp="1582361204780" textual="false" version="1.0"/>
+</session>

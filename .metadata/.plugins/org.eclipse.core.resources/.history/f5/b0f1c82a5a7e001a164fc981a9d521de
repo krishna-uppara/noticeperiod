@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 2.194 s <<< FAILURE! - in TestSuite
+RunnerClass.Runner.setup  Time elapsed: 1.682 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated setup.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+RunnerClass.Runner.tearDown  Time elapsed: 1.71 s  <<< FAILURE!
+java.lang.NullPointerException
+	at RunnerClass.Runner.tearDown(Runner.java:67)
+

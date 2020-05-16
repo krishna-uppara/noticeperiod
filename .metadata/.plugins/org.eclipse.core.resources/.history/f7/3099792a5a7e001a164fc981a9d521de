@@ -1,0 +1,5 @@
+
+Scenario: Verify the datatable # src/main/java/Features/mapdatatable.feature:4
+  Given xyxz                   # Definition.Mapdatatable.xyxz()
+  When abc                     # Definition.Mapdatatable.abc()
+  Then def                     # Definition.Mapdatatable.def(io.cucumber.datatable.DataTable)

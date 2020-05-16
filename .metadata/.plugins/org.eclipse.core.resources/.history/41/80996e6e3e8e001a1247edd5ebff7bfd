@@ -1,0 +1,12 @@
+Feature: Crm Login feature
+description :::
+
+
+
+Scenario: Crm Loginn Test Scenario
+Given users is already in the login page
+#hello inksadlksalkjdlsa
+When titles of the login page is free CRmm
+Then users enter username and password
+Then users click on login button
+And Users is home page

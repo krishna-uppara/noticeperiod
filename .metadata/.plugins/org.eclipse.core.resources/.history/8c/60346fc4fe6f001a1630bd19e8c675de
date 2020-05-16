@@ -1,0 +1,42 @@
+package Definition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class DDwithoutExample {
+	@Given("^ user is in the login page$")
+	public void userIsAlreadyInTheLoginPage() throws Throwable {
+		System.out.println("user is already in the login page");
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("^Verify the title of the login page$")
+	public void titleOfTheLoginPageIsFreeCRmm() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("^title of the login page is free CRmm");
+	    
+	}
+
+	@Then("^user enter username and password$")
+	public void userEnterUsernameAndPassword() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("user enter username and password");
+	}
+
+	@Then("^user click on login button$")
+	public void userClickOnLoginButton() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("user click on login button");
+	    
+	}
+
+	@Then("^User is home page$")
+	public void userIsHomePage() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("User is home page");
+	    
+	}
+
+}

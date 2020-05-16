@@ -1,0 +1,15 @@
+import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
+public class log {
+
+	public static void main(String[] args) {
+		Logger log = LogManager.getLogger(this.class);
+		System.out.println("Hello Log4J");
+        log.debug("Logger Debug");
+        log.info("Logger Info");
+        log.error("dfd");
+   
+	}
+
+}

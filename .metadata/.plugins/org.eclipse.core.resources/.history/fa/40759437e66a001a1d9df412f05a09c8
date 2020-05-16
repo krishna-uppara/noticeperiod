@@ -1,0 +1,218 @@
+[
+  {
+    "source": "^title of the loginnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn page is free CRmm$",
+    "steps": [
+      {
+        "name": "title of the loginnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn page is free CRmm",
+        "aggregatedDurations": {
+          "average": 0.000165152,
+          "median": 0.000165152
+        },
+        "durations": [
+          {
+            "duration": 0.000165152,
+            "location": "Login.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on login button$",
+    "steps": [
+      {
+        "name": "user click on login button",
+        "aggregatedDurations": {
+          "average": 0.000233266,
+          "median": 0.000233266
+        },
+        "durations": [
+          {
+            "duration": 0.000233266,
+            "location": "Login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is already in the login page$",
+    "steps": [
+      {
+        "name": "user is already in the login page",
+        "aggregatedDurations": {
+          "average": 0.125141185,
+          "median": 0.125141185
+        },
+        "durations": [
+          {
+            "duration": 0.125141185,
+            "location": "Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is home page$",
+    "steps": [
+      {
+        "name": "User is home page",
+        "aggregatedDurations": {
+          "average": 0.000140426,
+          "median": 0.000140426
+        },
+        "durations": [
+          {
+            "duration": 0.000140426,
+            "location": "Login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on login buttonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn$",
+    "steps": [
+      {
+        "name": "user click on login buttonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "aggregatedDurations": {
+          "average": 0.000152556,
+          "median": 0.000152556
+        },
+        "durations": [
+          {
+            "duration": 0.000152556,
+            "location": "Login.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is home pagennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn$",
+    "steps": [
+      {
+        "name": "User is home pagennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "aggregatedDurations": {
+          "average": 0.000227201,
+          "median": 0.000227201
+        },
+        "durations": [
+          {
+            "duration": 0.000227201,
+            "location": "Login.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^title of the login page is free CRmm$",
+    "steps": [
+      {
+        "name": "title of the login page is free CRmm",
+        "aggregatedDurations": {
+          "average": 0.0006956,
+          "median": 0.0006956
+        },
+        "durations": [
+          {
+            "duration": 0.0006956,
+            "location": "Login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is already in the loginnnnnnnnnnnnnnnnnnnnnnn page$",
+    "steps": [
+      {
+        "name": "user is already in the loginnnnnnnnnnnnnnnnnnnnnnn page",
+        "aggregatedDurations": {
+          "average": 0.000149757,
+          "median": 0.000149757
+        },
+        "durations": [
+          {
+            "duration": 0.000149757,
+            "location": "Login.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter username and password$",
+    "steps": [
+      {
+        "name": "user enter username and password",
+        "aggregatedDurations": {
+          "average": 0.00132775,
+          "median": 0.00132775
+        },
+        "durations": [
+          {
+            "duration": 0.00132775,
+            "location": "Login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is lookin up$",
+    "steps": [
+      {
+        "name": "user is lookin up",
+        "aggregatedDurations": {
+          "average": 0.000137627,
+          "median": 0.000137627
+        },
+        "durations": [
+          {
+            "duration": 0.000137627,
+            "location": "Login.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is taken up$",
+    "steps": [
+      {
+        "name": "user is taken up",
+        "aggregatedDurations": {
+          "average": 0.00068067,
+          "median": 0.00068067
+        },
+        "durations": [
+          {
+            "duration": 0.00068067,
+            "location": "Login.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enter usernamennnnnnnnnnn and passwordnnnnnnnnnnnnnnnnnnnnnnn$",
+    "steps": [
+      {
+        "name": "user enter usernamennnnnnnnnnn and passwordnnnnnnnnnnnnnnnnnnnnnnn",
+        "aggregatedDurations": {
+          "average": 0.000149757,
+          "median": 0.000149757
+        },
+        "durations": [
+          {
+            "duration": 0.000149757,
+            "location": "Login.feature:22"
+          }
+        ]
+      }
+    ]
+  }
+]

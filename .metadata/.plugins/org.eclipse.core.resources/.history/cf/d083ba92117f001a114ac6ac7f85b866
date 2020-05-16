@@ -1,0 +1,25 @@
+Feature: Verify the datatable
+description ::: 
+
+Scenario: Verify the datatable
+Given  xyxz
+When abc
+Then def
+|username|password|
+|veeresh|radika|
+|krishna|krishnaveni|
+|Shashikanth|upcoming|
+
+
+Scenario: Free Crm Loginn Test Scenario
+Given user is already in the login page
+#hello inksadlksalkjdlsa
+When title of the login page is free CRmm
+Then user enter username and password
+Then user click on login button
+And User is home page
+
+
+Scenario: Free crm lookup
+Given user is lookin up
+When user is taken up

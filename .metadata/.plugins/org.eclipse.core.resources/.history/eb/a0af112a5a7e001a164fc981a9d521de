@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-14T14:10:56.304Z",
+        "line": 4,
+        "name": "Verify the datatable",
+        "description": "",
+        "id": "verify-the-datatable;verify-the-datatable",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "xyxz",
+            "match": {
+              "location": "Definition.Mapdatatable.xyxz()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "abc",
+            "match": {
+              "location": "Definition.Mapdatatable.abc()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "def",
+            "match": {
+              "location": "Definition.Mapdatatable.def(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "veeresh",
+                  "radika"
+                ]
+              },
+              {
+                "cells": [
+                  "krishna",
+                  "krishnaveni"
+                ]
+              },
+              {
+                "cells": [
+                  "Shashikanth",
+                  "upcoming"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the datatable",
+    "description": "description ::: ",
+    "id": "verify-the-datatable",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/mapdatatable.feature",
+    "tags": []
+  }
+]

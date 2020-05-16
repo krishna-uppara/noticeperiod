@@ -1,0 +1,37 @@
+package Definition;
+
+import java.lang.reflect.Type;
+import java.util.Map;
+
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class Mapdatatable {
+	
+	
+	@Given("xyxz")
+	public void xyxz() {
+	System.out.println("verify the super");	
+	}
+
+	@When("abc")
+	public void abc() {
+		System.out.println("verify the abc");
+	}
+	
+
+
+	@Then("def")
+	public void def(DataTable test) {
+
+		
+		for(Map<Object, Object> aaa :test.asMaps(String.class,String.class))
+		{
+			
+		}
+	}	
+
+}
+

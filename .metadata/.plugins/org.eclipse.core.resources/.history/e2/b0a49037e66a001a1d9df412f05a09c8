@@ -1,0 +1,29 @@
+Feature: free Crm Login feature
+  description :::
+
+  @smoke @regressions
+  Scenario: Free Crm Loginn Test Scenario     # Login.feature:5
+    Given user is already in the login page   # Login_Definition.userIsAlreadyInTheLoginPage()
+    #hello inksadlksalkjdlsa
+    When title of the login page is free CRmm # Login_Definition.titleOfTheLoginPageIsFreeCRmm()
+    Then user enter username and password     # Login_Definition.userEnterUsernameAndPassword()
+    Then user click on login button           # Login_Definition.userClickOnLoginButton()
+    And User is home page                     # Login_Definition.userIsHomePage()
+
+  @smoke
+  Scenario: Free crm lookup # Login.feature:14
+    Given user is lookin up # Login_Definition.user_is_lookin_up()
+    When user is taken up   # Login_Definition.user_is_taken_up()
+
+  @regressions
+  Scenario: Free Crm Loginnn Test Scenario                                  # Login.feature:19
+    Given user is already in the loginnnnnnnnnnnnnnnnnnnnnnn page           # Login_Definition.user_is_already_in_the_loginnnnnnnnnnnnnnnnnnnnnnn_page()
+    When title of the loginnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn page is free CRmm # Login_Definition.title_of_the_loginnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn_page_is_free_CRmm()
+    Then user enter usernamennnnnnnnnnn and passwordnnnnnnnnnnnnnnnnnnnnnnn # Login_Definition.user_enter_usernamennnnnnnnnnn_and_passwordnnnnnnnnnnnnnnnnnnnnnnn()
+    Then user click on login buttonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn      # Login_Definition.user_click_on_login_buttonnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn()
+    And User is home pagennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn            # Login_Definition.user_is_home_pagennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn()
+
+  @regressions
+  Scenario: Free crm face        # Login.feature:27
+    Given user is lookin up face
+    When user is taken up face   # Login_Definition.user_is_taken_up_face()

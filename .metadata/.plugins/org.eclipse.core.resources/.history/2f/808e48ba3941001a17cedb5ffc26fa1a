@@ -1,0 +1,22 @@
+
+interface ABC 
+{
+	 public void test();
+	 default public void test1()
+	 {
+		 System.out.println(" default method");
+	 }
+	 
+	 public static void test2()
+	 {
+		 System.out.println(" static method ");
+	 }
+	 
+	 
+	 
+}
+
+
+public class inter {
+
+}

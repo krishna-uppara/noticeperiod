@@ -1,0 +1,37 @@
+package RunnerClass;
+
+
+
+import org.testng.annotations.Test;
+
+
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+
+
+
+@CucumberOptions(features = "E:/NoticeperiodSelenium/Cucumber_learning/src/main/java/Features",
+glue = "Definition",
+monochrome = true,
+dryRun=true,
+strict=true,
+ plugin={ "pretty","html:target/cucumber-html","json:target/Cucumber.json"
+		  ,"pretty:target/cucumber-html.txt"
+		  ,"junit:target/cucumber-html.xml"
+		  ,"usage:target/cucumber-html1.json"
+		  ,"rerun:target/rerun.txt"
+		  }
+// OR {"@,@"}
+//,tags={"@smoke,@regressions"}
+// AND {"@","@"}
+//,tags={"@smoke","@regressions"}
+//NOT {"~@"}
+//,tags={"~@smoke,~@regressions"}
+
+	)
+@Test
+public class Runner2 extends AbstractTestNGCucumberTests{
+	
+
+}

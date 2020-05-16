@@ -1,0 +1,33 @@
+package javaprograms;
+
+public class Stringreverse {
+	
+	public static void main(String[] args) {
+		
+		
+		        String input = "abczabc"; 
+		        String [] input1= input.split("");
+		       for(int i=0;i<input1.length;i++)
+		       {
+		    	   for(int j=i+1 ; j<input1.length;j++)
+		    	   {
+		    		   String test1= input1[i];
+		    		   String test2= input1[j];
+		    		   if(((i!=j && test1.equals(test2))))
+		    		   {
+		    			   
+		    			   
+		    		   }
+		    		   
+		    		   
+		    	   }
+		    	   System.out.println(input1[i]);
+		       }
+
+		            
+		        }
+		    } 
+	
+		
+	
+

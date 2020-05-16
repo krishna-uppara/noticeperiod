@@ -1,0 +1,39 @@
+package Definition;
+
+import java.util.Map;
+import RunnerClass.Runner2;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+
+public class Mapdatatable{
+	
+	
+	@Given("xyxz")
+	public void xyxz() {
+	System.out.println("verify the super");	
+	}
+
+	@When("abc")
+	public void abc() {
+		System.out.println("verify the abc");
+		Assert
+	}
+	
+
+
+	@Then("def")
+	public void def(DataTable test) {
+
+		
+		for(Map<Object, Object> aaa :test.asMaps(String.class,String.class))
+		{
+			System.out.println(aaa.get("username"));
+			System.out.println(aaa.get("password"));
+		}
+	}	
+
+}
+

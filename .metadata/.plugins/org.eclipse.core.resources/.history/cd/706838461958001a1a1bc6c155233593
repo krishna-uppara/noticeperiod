@@ -1,0 +1,23 @@
+package seleniumLearning;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class page1st extends test1st{
+	@FindBy(xpath="//form[@id='basicBootstrapForm']")
+	private WebElement form;
+	@FindBy(xpath="//textarea[@ng-model='Adress']")
+	private WebElement address;
+	public page1st() {
+		// TODO Auto-generated constructor stub
+		PageFactory.initElements(driver, this);
+	}
+	
+	public static void registerForm(WebDriver driver)
+	{
+		
+	}
+
+}

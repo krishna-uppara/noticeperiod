@@ -1,0 +1,34 @@
+package Compareobjects_comparable_and_Comparator;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class CompareToMethod implements Comparable<CompareToMethod>{
+		
+	    int age;
+	    String name;
+	    String email;
+	    public CompareToMethod(int age, String name, String email) {
+			super();
+			this.age = age;
+			this.name = name;
+			this.email = email;
+		}
+
+		
+
+	    public int compareTo(CompareToMethod arg0) {
+			// TODO Auto-generated method stub
+			return 0;
+	}
+
+	public static void main(String[] args) {
+		List<CompareToMethod> students = Arrays.asList(new CompareToMethod(20,"Bob", "bob@mail.com"), new CompareToMethod(19, "Jane", "Jane@mail.com"),
+		        new CompareToMethod(21,"Foo", "foo@mail.com"));
+
+	}
+
+	
+	}
+
+

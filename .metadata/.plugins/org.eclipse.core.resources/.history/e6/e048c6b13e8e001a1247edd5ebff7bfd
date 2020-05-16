@@ -1,0 +1,24 @@
+package Definition;
+
+public class Values {
+
+	
+	@Given("users is already in the login page1")
+	public void users_is_already_in_the_login_page1() {
+	    // Write code here that turns the phrase above into concrete actions
+	    System.out.println("abc");
+	}
+
+	@When("titles of the login page is free CRmm1")
+	public void titles_of_the_login_page_is_free_CRmm1() {
+	    // Write code here that turns the phrase above into concrete actions
+	    System.out.println("abc");
+	}
+
+	@Then("users enter {string} and {string}")
+	public void users_enter_and(String string, String string2) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+}

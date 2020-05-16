@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: RunnerClass.Runner2
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in RunnerClass.Runner2
+RunnerClass.Runner2.initializationError  Time elapsed: 0 s  <<< ERROR!
+cucumber.runtime.CucumberException: Error parsing feature file E:/NoticeperiodSelenium/Cucumber_learning/target/rerun.txt
+Caused by: gherkin.lexer.LexingError: 
+Lexing error on line 1: 'Login.feature:27
+%_FEATURE_END_%'. See http://wiki.github.com/cucumber/gherkin/lexingerror for more information.
+

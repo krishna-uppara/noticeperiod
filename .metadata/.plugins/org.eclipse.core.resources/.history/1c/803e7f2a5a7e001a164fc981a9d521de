@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.552">
+<testcase classname="Verify the datatable" name="Verify the datatable" time="0.015">
+<system-out><![CDATA[Given xyxz..................................................................passed
+When abc....................................................................passed
+Then def....................................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

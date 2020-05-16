@@ -1,0 +1,13 @@
+
+public class Table {
+
+	public static void main(String[] args) {
+		
+		
+		System.setProperty("webdriver.gecko.driver", ".//EXES//geckodriver.exe");
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
